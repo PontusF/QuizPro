@@ -1,0 +1,48 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<meta charset ="UTF-8">
+</head>
+
+
+<body>
+
+  <h1>QuizPro</h1>
+
+  <div class="question">
+    <p id="demo">loading...</p>
+  </div>
+
+  <div class="answers" id="answers">
+    <div class="answer 1" id="n1"> </div>
+    <div class="answer 2" id="n2"> </div>
+    <div class="answer 3" id="n3"> </div>
+    <div class="answer 4" id="n4"> </div>
+  </div>
+
+<footer>
+  <div class="scores">
+    <div class="score 1"></div>
+    <div class="score 2"></div>
+    <div class="score 3"></div>
+    <div class="score 4"></div>
+    <div class="score 5"></div>
+    <div class="score 6"></div>
+    <div class="score 7"></div>
+  </div>
+
+</footer>
+</body>
+</html>
+<script type = "text/javascript" src="script.js"></script>
+<script>
+  var main = document.querySelector("main");
+
+  main.addEventlistener('click', function(e){
+    console.log(e);
+    if (e.target.nodeName="DIV"){
+    e.target.classList.toggle('clicked');
+    }
+      });
+</script>

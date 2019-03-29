@@ -1,0 +1,64 @@
+body{
+
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color:#76D7d6;
+  font-size: 300%
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  color: #76D7d6;
+  font-size: 150%
+}
+.question{
+  text-align: center;
+}
+
+.answer:hover{
+  background-color: #76d7d6 !important;
+}
+
+.answers {
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap:5px;
+}
+.answer{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  border-radius:5px;
+  padding:20px;
+  font-size:150%;
+  text-align: center;
+}
+.answers #n1{
+  background-color: #f8c5d0;
+}
+.answers #n2{
+  background-color: #F6E7A3;
+}
+.answers #n3{
+  background-color: #f7e368;
+}
+.answers #n4{
+  background-color: #ABE3E5;
+}
+.scores{
+  margin: auto;
+  display:grid;
+  grid-template-columns: 20px 20px 20px 20px 20px 20px 20px;
+  grid-gap:10px;
+}
+.score{
+  color:white;
+  background-color: grey;
+  border-radius:5px;
+  padding:10px;
+  font-size:75%;
+  text-align: center;
+  border-radius: 50%;
+}
